@@ -7,7 +7,7 @@ pygame.mixer.init()
 
 display = pygame.display.set_mode((1280, 720))
 
-campo_img = pygame.image.load("assets/bg.png")
+campo_img = pygame.image.load('assets/bg.png')
 campo = campo_img.get_rect()
 
 player1_img = pygame.image.load("assets/player1.png")
